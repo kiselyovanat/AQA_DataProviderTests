@@ -25,7 +25,6 @@ public class RuTubePage {
     }
 
     public RuTubePage searchChannel(String channelName) {
-        //searchInput.click();
         searchInput.setValue(channelName).pressEnter();
 
         return this;
